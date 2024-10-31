@@ -1,0 +1,88 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End Development",
+            "description": "Proficient in React and Streamlit, building interactive, responsive UIs. Improved user experience by 25% through intuitive design and functionality integration."
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back-End & API Integration",
+            "description": "Skilled in REST APIs, SQL, and Azure Data Factory (ADF), streamlining data pipelines and enhancing database performance with Snowflake."
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "Data Science & Machine Learning",
+            "description": "Experienced in PyTorch, TensorFlow, scikit-learn, and advanced data visualization with Power BI, specializing in predictive modeling and data analysis."
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Large Language Models (LLMs) & Chatbots",
+            "description": "Expertise in open-source LLMs, prompt engineering, and Retrieval-Augmented Generation (RAG), achieving a 40% improvement in chatbot answer precision."
+        },
+        {
+            "id": "5",
+            "src": "./img/data-visualization.png",
+            "title": "Data Visualization",
+            "description": "Enhanced report clarity and engagement using Power BI and visual analytics, delivering actionable insights through custom dashboards for decision-making."
+        },
+        {
+            "id": "6",
+            "src": "./img/system-design.png",
+            "title": "System Design & Optimization",
+            "description": "Experience with system design for projects like a solar-powered heating system, optimizing water heating and purification, and designing scalable back-end systems."
+        },
+        {
+            "id": "7",
+            "src": "./img/programming.png",
+            "title": "Programming Languages",
+            "description": "Proficient in Python, Java, C++, SQL, and MATLAB, with experience in leveraging these languages for machine learning, data analysis, and software development projects."
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/f1-predictive-model.png",
+            "title": "F1 Predictive Model",
+            "description": "Developed a machine learning model using RNN and LSTM to predict F1 driver lap times and positions, achieving 80% accuracy and predictions within 3 seconds of target lap times.",
+            "link": "https://github.com/kumkum1/F1_predictive_model"
+        },
+        {
+            "id": "2",
+            "src": "./img/irt-model.png",
+            "title": "Item Response Theory (IRT) Model",
+            "description": "Enhanced an IRT model for individualized learning assessments, achieving a 90% improvement in accuracy by optimizing model parameters and algorithms.",
+            "link": "View In Github"
+        },
+        {
+            "id": "3",
+            "src": "./img/image-filter-server.png",
+            "title": "Image Filter Server",
+            "description": "Built a C++ server application enabling users to upload photos and apply filters via a user-friendly web interface, optimizing the image processing workflow for enhanced performance.",
+            "link": "View In Github"
+        },
+        {
+            "id": "4",
+            "src": "./img/recipe-search-software.png",
+            "title": "Recipe Search Software",
+            "description": "Developed a recipe search application in Java with a collaborative team, integrating APIs and user-driven contributions to boost daily active users by 40%.",
+            "link": "https://github.com/kumkum1/Recipe_Search"
+        }
+    ],
+    "experience": [
+        {
+            "id": "1",
+            "title": "Data Engineer, Northbridge Insurance",
+            "description": "At Northbridge Insurance, I focused on developing AI-driven solutions, particularly in the realm of chatbot and data automation. I built an intelligent chatbot designed to translate natural language into SQL queries, using open-source large language models (LLMs) and advanced prompt engineering techniques. By integrating Retrieval-Augmented Generation (RAG), the chatbot could clarify user inputs and offer adaptive responses, enabling seamless interaction with complex databases. Leveraging the Cortex API, I enhanced the chatbot's precision by 40%, ensuring it provided contextually accurate, data-driven answers. This innovation improved internal data accessibility, empowering users to make informed decisions efficiently. Additionally, I deployed these advancements through intuitive web applications with Streamlit and React, optimizing user experience and workflow productivity"
+        },
+        {
+            "id": "2",
+            "title": "Internal Outreach Director, Illuminate",
+            "description": "As an Internal Outreach Director, I lead initiatives to engage and inspire students within our organization, fostering a collaborative and inclusive environment. I coordinate and promote events that bridge interdisciplinary interests in computer science, AI, and ethics, helping students connect with opportunities, gain insights, and develop a network for career and academic growth. My role involves liaising with team members to organize impactful events, streamline communications, and build lasting connections within the community."
+        }
+    ]
+}
