@@ -10,7 +10,7 @@ export default function AboutMe() {
           <p className="hero--section-description">
           I am a dedicated Computer Science student with a strong foundation in programming, data science, and machine learning, combined with a passion for AI applications. 
           With hands-on experience in data engineering, web development, and cognitive modeling, I excel at creating solutions that bridge technology and practical needs. 
-          Currently interning as a Data Analyst, I enjoy collaborating across teams and using my skills to develop impactful projects. 
+          Currently interning as a Data Engineer, I enjoy collaborating across teams and using my skills to develop impactful projects. 
           </p>
         </div>
       </div>
