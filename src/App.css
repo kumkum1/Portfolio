@@ -660,7 +660,6 @@ h3 {
 }
 
 /* Hamburger menu  */
-/* 
 .nav__hamburger {
   display: none;
   width: 1.875rem;
@@ -730,6 +729,6 @@ h3 {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
-} */
+} 
 
 /* Responsive Screens Ends*/
