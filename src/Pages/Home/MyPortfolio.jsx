@@ -5,7 +5,7 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h2 className="portfolio--section--heading">My Portfolio</h2>
+          <h2 className="portfolio--section--heading">Projects</h2>
         </div>
         <div>
         <a
@@ -25,11 +25,8 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
+        {data?.portfolio?.slice().reverse().map((item, index) => ( 
           <div key={index} className="portfolio--section--card">
-            {/* <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
-            </div> */}
             <div className="portfolio--section--card--content">
               <div>
                 <h3 className="portfolio--section--title">{item.title}</h3>

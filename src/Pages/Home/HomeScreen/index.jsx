@@ -9,10 +9,10 @@ export default function HomeScreen() {
     return(
         <>
             <HeroSection />
-            <MySkills />
-            <AboutMe />
-            <MyPortfolio />
             <Experience />
+            <AboutMe />
+            <MySkills />
+            <MyPortfolio />
             <Footer />
         </>
     )

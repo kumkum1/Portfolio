@@ -41,48 +41,75 @@
             "src": "./img/programming.png",
             "title": "Programming Languages",
             "description": "Proficient in Python, Java, C++, SQL, and MATLAB, with experience in leveraging these languages for machine learning, data analysis, and software development projects."
+        },
+        {
+            "id": "8",
+            "src": "./img/programming.png",
+            "title": "Research",
+            "description": "Experienced with computational modeling, analyzing cognitive processes, optimizing model parameters, and validating findings through simulations, with experience in interdisciplinary research and creating clear visualizations."
         }
     ],
     "portfolio": [
         {
             "id": "1",
-            "src": "./img/f1-predictive-model.png",
-            "title": "F1 Predictive Model",
-            "description": "Developed a machine learning model using RNN and LSTM to predict F1 driver lap times and positions, achieving 80% accuracy and predictions within 3 seconds of target lap times.",
-            "link": "https://github.com/kumkum1/F1_predictive_model"
+            "src": "./img/recipe-search-software.png",
+            "title": "Recipe Search Software",
+            "description": "Developed a recipe search application in Java with a collaborative team, integrating APIs and user-driven contributions to boost daily active users by 40%.",
+            "link": "https://github.com/kumkum1/Recipe_Search"
         },
         {
             "id": "2",
-            "src": "./img/irt-model.png",
-            "title": "Item Response Theory (IRT) Model",
-            "description": "Enhanced an IRT model for individualized learning assessments, achieving a 90% improvement in accuracy by optimizing model parameters and algorithms.",
-            "link": "View In Github"
-        },
-        {
-            "id": "3",
             "src": "./img/image-filter-server.png",
             "title": "Image Filter Server",
             "description": "Built a C++ server application enabling users to upload photos and apply filters via a user-friendly web interface, optimizing the image processing workflow for enhanced performance.",
             "link": "View In Github"
         },
         {
+            "id": "3",
+            "src": "./img/irt-model.png",
+            "title": "Item Response Theory (IRT) Model",
+            "description": "Enhanced an IRT model for individualized learning assessments, achieving a 90% improvement in accuracy by optimizing model parameters and algorithms.",
+            "link": "View In Github"
+        },
+        {
             "id": "4",
-            "src": "./img/recipe-search-software.png",
-            "title": "Recipe Search Software",
-            "description": "Developed a recipe search application in Java with a collaborative team, integrating APIs and user-driven contributions to boost daily active users by 40%.",
-            "link": "https://github.com/kumkum1/Recipe_Search"
+            "src": "./img/f1-predictive-model.png",
+            "title": "F1 Predictive Model",
+            "description": "Developed a machine learning model using RNN and LSTM to predict F1 driver lap times and positions, achieving 80% accuracy and predictions within 3 seconds of target lap times.",
+            "link": "https://github.com/kumkum1/F1_predictive_model"
+        },
+        {
+            "id": "5",
+            "src": "./img/drm.png",
+            "title": "DRM Sleep Simulation",
+            "description": "Designed and implemented a Python-based simulation model utilizing LSTM neural networks to analyze the effects of sleep on DRM false memory formation, successfully replicating empirical study findings.  ",
+            "link": "https://github.com/kumkum1/DRM-memory-simulation"
         }
     ],
     "experience": [
         {
             "id": "1",
+            "src": "./img/illuminate.png",
+            "title": "Internal Outreach Director, Illuminate",
+            "description": "As an Internal Outreach Director, I lead initiatives to engage and inspire students within our organization, fostering a collaborative and inclusive environment. I coordinate and promote events that bridge interdisciplinary interests in computer science, AI, and ethics, helping students connect with opportunities, gain insights, and develop a network for career and academic growth. My role involves liaising with team members to organize impactful events, streamline communications, and build lasting connections within the community."
+        },
+        {
+            "id": "2",
+            "src": "./img/northbridge.png",
             "title": "Data Engineer, Northbridge Insurance",
             "description": "At Northbridge Insurance, I focused on developing AI-driven solutions, particularly in the realm of chatbot and data automation. I built an intelligent chatbot designed to translate natural language into SQL queries, using open-source large language models (LLMs) and advanced prompt engineering techniques. By integrating Retrieval-Augmented Generation (RAG), the chatbot could clarify user inputs and offer adaptive responses, enabling seamless interaction with complex databases. Leveraging the Cortex API, I enhanced the chatbot's precision by 40%, ensuring it provided contextually accurate, data-driven answers. This innovation improved internal data accessibility, empowering users to make informed decisions efficiently. Additionally, I deployed these advancements through intuitive web applications with Streamlit and React, optimizing user experience and workflow productivity"
         },
         {
-            "id": "2",
-            "title": "Internal Outreach Director, Illuminate",
-            "description": "As an Internal Outreach Director, I lead initiatives to engage and inspire students within our organization, fostering a collaborative and inclusive environment. I coordinate and promote events that bridge interdisciplinary interests in computer science, AI, and ethics, helping students connect with opportunities, gain insights, and develop a network for career and academic growth. My role involves liaising with team members to organize impactful events, streamline communications, and build lasting connections within the community."
+            "id": "3",
+            "src": "./img/uoft.png",
+            "title": "Research Assistant, University of Toronto",
+            "description": "As a Research Assistant at the University of Toronto, I am contributing to the development of computational models that simulate cognitive processes, with a focus on understanding the impact of human emotions on decision-making. My role involves assisting researchers by analyzing experimental data, refining model parameters, and validating results through simulations. I collaborate with interdisciplinary teams to support the integration of psychological theories into computational frameworks and help ensure the accuracy and relevance of the models. Additionally, I assist in preparing documentation and visualizations to effectively communicate research findings. This experience is enriching my skills in data analysis and cognitive modeling while deepening my understanding of how technology can be used to explore complex aspects of human cognition."
+        },
+        {
+            "id": "4",
+            "src": "./img/medium-ai.png",
+            "title": "Software Developer, Medium AI",
+            "description": "At Medium AI, I am actively involved in the full-stack development of a medical scribe platform, leveraging React and JavaScript to optimize user experience and scalability. Collaborating with the AI research team, I am contributing to the design and implementation of a DirectRAG model that transforms transcripts into precise, medical-grade documentation. This role allows me to merge advanced AI technology with intuitive design, addressing real-world challenges in medical documentation."
         }
     ]
 }

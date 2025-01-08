@@ -30,6 +30,19 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                to="Experience"
+                className="text-md"
+              >
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
                 to="AboutMe"
                 className="text-md"
               >
@@ -43,10 +56,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Projects"
+                to="mySkills"
                 className="text-md"
               >
-                Projects
+                Skills
               </Link>
             </li>
             <li>
@@ -56,19 +69,16 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Experience"
+                to="MyPortfolio"
                 className="text-md"
               >
-                Experience
+                Projects
               </Link>
             </li>
           </ul>
         </div>
       </div>
       <hr className="divider" />
-      <div className="footer--content--container">
-        <p className="footer--content">Made by Kumkum Choudhary</p>
-      </div>
     </footer>
   );
 }
