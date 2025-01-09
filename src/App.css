@@ -243,13 +243,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  gap: 50px;
 }
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 50px;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 7px;
 }
 .skills--section--container {
   display: grid;
@@ -267,7 +267,6 @@ h3 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 250px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
@@ -330,7 +329,7 @@ h3 {
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 50px;
   background-color: var(--bg-shade);
 }
 .portfolio--section--heading {
@@ -356,7 +355,7 @@ h3 {
   align-items: stretch;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr); 
-  gap: 42.6px;
+  gap: 20px;
   width: 100%;
 }
 .portfolio--section--card {
@@ -404,7 +403,7 @@ h3 {
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 50px;
   /* background-color: var(--bg-shade); */
 }
 .work--section--heading {
@@ -430,16 +429,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden; 
   width: 60px; 
-  height: 60px; 
+  height: 60px;
 }
-
 .work--section--img > img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: contain; 
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
 }
-
 .work--section--card {
   display: flex;
   padding: 32px;
@@ -450,6 +448,7 @@ h3 {
   border-radius: 10.6px;
   /* background: #fff; */
   background-color: var(--bg-shade);
+  cursor: pointer;
 }
 
 .work--section--card:hover {
@@ -583,6 +582,30 @@ h3 {
   }
 }
 
+@media only screen and (max-width: 1600px) {
+  .work--section--heading {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  .work--section--container {
+    gap: 16px;
+  }
+  .work--section--card {
+    gap: 28px;
+  }
+  .work--section--card--content {
+    gap: 20px;
+  }
+  .work--section--title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  .work--section--description {
+    font-size: 17.333px;
+    line-height: 27px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .btn-outline-primary {
     display: none;
@@ -591,24 +614,27 @@ h3 {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .hero--section--title,
-  .hero--section-description,
-  .footer--content {
+  .hero--section-description{
     text-align: center;
   }
   .skills--section--container,
+  .work--section--container,
   .about--section,
-  .portfolio--section--container,
-  .portfolio--container-box,
-  .footer--link--container,
-  .footer--items > ul,
-  .footer--content--container {
+  .portfolio--section--container
+  /* .portfolio--container-box, */ {
     display: flex;
     flex-direction: column;
   }
+  /* .skills--section--card {
+    flex: 1; 
+    height: auto; 
+  } */
   .skills--section,
-  .portfolio--container,
+  .work--section,
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
@@ -617,45 +643,62 @@ h3 {
     gap: 30px;
   }
   .skills--section,
-  .testimonial--section,
+  .work--section,
   .contact--section,
+  .portfolio--section,
   .footer--container {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .about--section {
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  .testimonial--section--card {
-    padding: 25px;
+  .about--section--img > img {
+    display: none;
   }
-  .hero--section--title,
-  .skills--section--heading,
-  .sections--heading {
+  .hero--section-description {
+    font-size: 17px;
+  }
+  .hero--section--title{
     font-size: 35px;
     line-height: 40px;
   }
   .hero--section--content--box {
     gap: 10px;
   }
-  .contact--form--container {
-    width: 100%;
+  /* .work--section--card--content {
+    display: none;
+  } */
+  .skills--section--heading,
+  .work--section--heading,
+  .portfolio--section--heading,
+  .sections--heading {
+    font-size: 35px;
+    line-height: 40px;
   }
   .container {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+  .footer--logo {
+    width: 100px; 
+    height: auto; 
+  }
   .footer--social--icon > ul,
   .footer--items > ul {
     padding: 0;
-    align-items: center;
+    font-size: 14px; 
+    line-height: 20px; 
+    gap: 16px; 
   }
   .divider {
-    margin: 20px;
+    margin: 0px;
   }
 }
 
@@ -681,6 +724,9 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
+  .navbar {
+    padding: 10px 20px;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
@@ -690,11 +736,11 @@ h3 {
   }
   .navbar--items {
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -20rem;
+    top: 100%;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
@@ -716,7 +762,7 @@ h3 {
     z-index: -1000;
   }
   .navbar--items.active {
-    top: 30px;
+    display: flex;
   }
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);

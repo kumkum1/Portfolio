@@ -6,7 +6,7 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="sections--heading">About Me</h1>
           <p className="hero--section-description">
           I am a Computer Science, Cognitive Science and Mathematics student at UofT. I have a strong foundation in programming, data science, and machine learning, combined with a passion for AI applications. 
           With hands-on experience in data engineering, web development, and cognitive modeling, I excel at creating solutions that bridge technology and practical needs. 
