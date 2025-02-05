@@ -10,7 +10,7 @@ export default function AboutMe() {
           <p className="hero--section-description">
           I am a Computer Science, Cognitive Science and Mathematics student at UofT. I have a strong foundation in programming, data science, and machine learning, combined with a passion for AI applications. 
           With hands-on experience in data engineering, web development, and cognitive modeling, I excel at creating solutions that bridge technology and practical needs. 
-          Currently interning as a Software Developer, I enjoy collaborating across teams and using my skills to develop impactful projects. I am also working as a Research Assistant in the field of AI and Cognitive Science.
+          Currently interning as a Software Developer, I enjoy collaborating across teams and using my skills to develop impactful projects. 
           </p>
         </div>
       </div>

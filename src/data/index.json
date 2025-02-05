@@ -101,12 +101,6 @@
         },
         {
             "id": "3",
-            "src": "./img/uoft.png",
-            "title": "Research Assistant, University of Toronto",
-            "description": "As a Research Assistant at the University of Toronto, I am contributing to the development of computational models that simulate cognitive processes, with a focus on understanding the impact of human emotions on decision-making. My role involves assisting researchers by analyzing experimental data, refining model parameters, and validating results through simulations. I collaborate with interdisciplinary teams to support the integration of psychological theories into computational frameworks and help ensure the accuracy and relevance of the models. Additionally, I assist in preparing documentation and visualizations to effectively communicate research findings. This experience is enriching my skills in data analysis and cognitive modeling while deepening my understanding of how technology can be used to explore complex aspects of human cognition."
-        },
-        {
-            "id": "4",
             "src": "./img/medium-ai.png",
             "title": "Software Developer, Medium AI",
             "description": "At Medium AI, I am actively involved in the full-stack development of a medical scribe platform, leveraging React and JavaScript to optimize user experience and scalability. Collaborating with the AI research team, I am contributing to the design and implementation of a DirectRAG model that transforms transcripts into precise, medical-grade documentation. This role allows me to merge advanced AI technology with intuitive design, addressing real-world challenges in medical documentation."
