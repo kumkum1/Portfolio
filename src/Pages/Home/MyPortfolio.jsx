@@ -20,7 +20,7 @@ export default function MyPortfolio() {
               width="32"
               height="32"
             />
-            Visit My GitHub
+            <span className="github-text">Visit My GitHub</span>
           </a>
         </div>
       </div>

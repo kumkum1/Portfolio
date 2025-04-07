@@ -84,6 +84,13 @@
             "title": "DRM Sleep Simulation",
             "description": "Designed and implemented a Python-based simulation model utilizing LSTM neural networks to analyze the effects of sleep on DRM false memory formation, successfully replicating empirical study findings.  ",
             "link": "https://github.com/kumkum1/DRM-memory-simulation"
+        },
+        {
+            "id": "6",
+            "src": "./img/drm.png",
+            "title": "Concpet Learning Model",
+            "description": "Developed a cognitive model for concept learning using the Clarion architecture, explaining human concept processing and categorization by integrating sensory, and linguistic representations through an associative merging mechanism. ",
+            "link": "https://github.com/kumkum1/conceptLearningModel"
         }
     ],
     "experience": [
@@ -103,7 +110,13 @@
             "id": "3",
             "src": "./img/medium-ai.png",
             "title": "Software Developer, Medium AI",
-            "description": "At Medium AI, I am actively involved in the full-stack development of a medical scribe platform, leveraging React and JavaScript to optimize user experience and scalability. Collaborating with the AI research team, I am contributing to the design and implementation of a DirectRAG model that transforms transcripts into precise, medical-grade documentation. This role allows me to merge advanced AI technology with intuitive design, addressing real-world challenges in medical documentation."
+            "description": "At Medium AI, I was actively involved in the full-stack development of a medical scribe platform, leveraging React and JavaScript to optimize user experience and scalability. In collaboration with the AI research team, I contributed to the design and implementation of a DirectRAG model that transformed transcripts into precise, medical-grade documentation. This role allowed me to merge advanced AI technology with intuitive design, addressing real-world challenges in medical documentation"
+        },
+        {
+            "id": "4",
+            "src": "./img/uoft.png",
+            "title": "Student Researcher, University of Toronto",
+            "description": "I contribute to a research initiative that explores how emotions impact decision-making, with a particular focus on long-term memory. My work centers on analyzing language data to understand the relationship between emotional word norms and their usage in text. I develop scripts that examine how emotional characteristics of words relate to their log frequency and position within a corpus. As part of this project, I design and implement regression models that correlate emotional norms with linguistic features. This analysis helps uncover how emotionally charged language influences memory and decision-making processes, offering insights into the cognitive mechanisms behind emotional interpretation in language. "
         }
     ]
 }
