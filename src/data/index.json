@@ -54,6 +54,7 @@
             "id": "1",
             "src": "./img/recipe-search-software.png",
             "title": "Recipe Search Software",
+            "details": "Java • REST APIs • Collaborative Development • User Interface Design",
             "description": "Developed a recipe search application in Java with a collaborative team, integrating APIs and user-driven contributions to boost daily active users by 40%.",
             "link": "https://github.com/kumkum1/Recipe_Search"
         },
@@ -61,6 +62,7 @@
             "id": "2",
             "src": "./img/image-filter-server.png",
             "title": "Image Filter Server",
+            "details": "C++ • Web Development • Image Processing • Server Architecture",
             "description": "Built a C++ server application enabling users to upload photos and apply filters via a user-friendly web interface, optimizing the image processing workflow for enhanced performance.",
             "link": "View In Github"
         },
@@ -68,6 +70,7 @@
             "id": "3",
             "src": "./img/irt-model.png",
             "title": "Item Response Theory (IRT) Model",
+            "details": "Python • Machine Learning • Statistical Analysis",
             "description": "Enhanced an IRT model for individualized learning assessments, achieving a 90% improvement in accuracy by optimizing model parameters and algorithms.",
             "link": "View In Github"
         },
@@ -75,6 +78,7 @@
             "id": "4",
             "src": "./img/f1-predictive-model.png",
             "title": "F1 Predictive Model",
+            "details": "Python • RNN • LSTM • Machine Learning • Data Analysis",
             "description": "Developed a machine learning model using RNN and LSTM to predict F1 driver lap times and positions, achieving 80% accuracy and predictions within 3 seconds of target lap times.",
             "link": "https://github.com/kumkum1/F1_predictive_model"
         },
@@ -82,14 +86,16 @@
             "id": "5",
             "src": "./img/drm.png",
             "title": "DRM Sleep Simulation",
-            "description": "Designed and implemented a Python-based simulation model utilizing LSTM neural networks to analyze the effects of sleep on DRM false memory formation, successfully replicating empirical study findings.  ",
+            "details": "Python • LSTM • Neural Networks • Cognitive Science • Sleep Research",
+            "description": "Designed and implemented a Python-based simulation model utilizing LSTM neural networks to analyze the effects of sleep on DRM false memory formation, successfully replicating empirical study findings.",
             "link": "https://github.com/kumkum1/DRM-memory-simulation"
         },
         {
             "id": "6",
             "src": "./img/drm.png",
             "title": "Concpet Learning Model",
-            "description": "Developed a cognitive model for concept learning using the Clarion architecture, explaining human concept processing and categorization by integrating sensory, and linguistic representations through an associative merging mechanism. ",
+            "details": "Python • PyClarion • Cognitive Modeling • SNN",
+            "description": "Developed a cognitive model for concept learning using the Clarion architecture, explaining human concept processing and categorization by integrating sensory, and linguistic representations through an associative merging mechanism.",
             "link": "https://github.com/kumkum1/conceptLearningModel"
         }
     ],

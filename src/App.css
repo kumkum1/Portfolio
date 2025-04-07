@@ -395,6 +395,14 @@ h3 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
+.portfolio--section--details {
+  color: var(--github);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  margin: 8px 0;
+}
 /* Portfolio Ends */
 
 /* Work Experience Starts*/
