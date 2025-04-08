@@ -614,7 +614,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   .btn-outline-primary {
     display: none;
   }
@@ -797,6 +797,147 @@ h3 {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+  
+  .navbar--items.active .btn-outline-primary {
+    display: none;
+  }
 } 
 
 /* Responsive Screens Ends*/
+
+/* Experience Detail Styles */
+.experience-detail--section {
+  padding: 120px 85.333px;
+  background-color: var(--bg-shade);
+  min-height: 100vh;
+}
+
+.experience-detail--container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-button {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.experience-detail--content {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 48px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.experience-detail--header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.experience-detail--img {
+  width: 180px;
+  height: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-detail--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.experience-detail--title {
+  color: var(--heading-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.experience-detail--description {
+  color: var(--darkblue);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.experience-detail--description p {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .experience-detail--section {
+    padding: 100px 32px;
+  }
+  
+  .experience-detail--content {
+    padding: 32px;
+  }
+  
+  .experience-detail--title {
+    font-size: 28px;
+  }
+  
+  .experience-detail--description {
+    font-size: 16px;
+  }
+  
+  .experience-detail--img {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience-detail--section {
+    padding: 80px 16px;
+  }
+  
+  .experience-detail--content {
+    padding: 24px;
+  }
+  
+  .experience-detail--header {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .experience-detail--img {
+    width: 120px;
+    height: 80px;
+  }
+  
+  .experience-detail--title {
+    font-size: 24px;
+  }
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .desktop-only {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: none;
+  }
+  
+  /* Remove the Contact Me button from the mobile menu */
+  .navbar--items.active .btn-outline-primary {
+    display: none;
+  }
+}
